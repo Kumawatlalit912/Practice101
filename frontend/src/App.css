@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    background-color: bisque;
+    margin-bottom: 20px;
+    padding:20px;
+    border-radius: 10px;
+    animation: start 4s infinite linear;
+}
+.mainBody{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* transition: ease-in; */
+    color:red;
+}
+@keyframes start{
+    0%   {background-color: rgb(182, 126, 126);}
+    25%  {background-color: rgb(185, 185, 137);}
+    50%  {background-color: rgb(156, 156, 209);}
+    100% {background-color: rgb(150, 206, 150);}
+}
+    
