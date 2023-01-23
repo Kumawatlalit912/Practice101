@@ -28,7 +28,7 @@ const Data = () => {
         }));
       }
       else setBunchOfIds([...bunchOfIds,e]);
-      console.log(bunchOfIds);
+      // console.log(bunchOfIds);
       // console.log(e);
     }
 
