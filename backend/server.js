@@ -12,7 +12,7 @@ const connectDb=require('./db');
 dotenv.config();
 // const PORT=process.env.PORT || 5000;
 app.use(bodyParser.json());
-
+app.listen(3000,console.log(`connected successfully on port 3000`));
 connectDb();
 
 const Products=mongoose.Schema({
@@ -97,5 +97,5 @@ app.put('/products/:id',(req,res)=>{
         })
     });
 
-app.listen(3000,console.log(`connected successfully on port 3000`));
+
 
