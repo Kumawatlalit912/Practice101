@@ -3,14 +3,16 @@ import axios from 'axios';
 import DeleteData from '../DeleteData';
 import './Data.css'
 const Data = () => {
-
+  
   const [data,setData]=useState([]);
   const [loading,setLoading]=useState(true);
   const [getId,setGetId]=useState();
   // const [selectedId,setSelectedId]=useState();
   const [bunchOfIds,setBunchOfIds]=useState([]);
+  // const mongoConnectUri="mongodb://products:product123@cluster0.ywhm9fa.mongodb.net/newProducts"
     useEffect(()=>{
-        axios.get('http://127.0.0.1:3000/products').then((res)=>{
+
+        axios.get('/products').then((res)=>{
           return res.data;
         }).then((data)=>{
           setData(data);

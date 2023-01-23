@@ -19,10 +19,10 @@ const PostData = () => {
   const handleChange = event => {
     setFormData({...formData, [event.target.name]: event.target.value})
   }
-
+  // const mongoConnectUri="mongodb://products:product123@cluster0.ywhm9fa.mongodb.net/newProducts"
   const handleSubmit = event => {
     event.preventDefault()
-    fetch('http://localhost:3000/products', {
+    fetch('/products', {
       method: 'POST',
       body: JSON.stringify(formData),
       headers: { 'Content-Type': 'application/json' }
