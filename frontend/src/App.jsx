@@ -10,7 +10,7 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-        
+        <div style={{backgroundColor:"#779BE9"}}>
         <div className='header'>
          <Link to='/'>Home</Link>
             <Link to='/about'>about</Link>
@@ -28,7 +28,7 @@ const App = () => {
             </div>
             <Message/> 
           <PostData />
-
+          </div>
     </Router>
   )
 }

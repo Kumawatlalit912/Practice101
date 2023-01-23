@@ -21,6 +21,6 @@
     0%{background-color: aquamarine;}
     25%{background-color: rgb(106, 150, 216);}
     50%{background-color: rgb(169, 185, 124);}
-    /* 100%{background-color: rgb(127, 99, 179);} */
-    100%{transform: rotate(.5deg);}
+    100%{background-color: rgb(127, 99, 179);}
+    /* 100%{transform: rotate(.5deg);} */
 }

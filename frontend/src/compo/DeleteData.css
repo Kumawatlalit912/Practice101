@@ -1,0 +1,9 @@
+button:hover{
+    color:rgb(232, 247, 244);
+    cursor:pointer; 
+    text-shadow: 2px 2px .5px rgb(19, 18, 18);
+    font-size: 14px;
+}
+.delbutton{
+    background-color: bisque;
+}
